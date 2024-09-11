@@ -26,8 +26,8 @@ body {
 
 /* ============== HEADER STYLES ============== */
 
-.page-logo-main,
-.page-logo-footer {
+.page-logo-main
+{
 
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -39,7 +39,12 @@ color: #2e2f42;
 }
 
 .text-blue {
-    
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
     color: #4d5ae5;
 }
 
@@ -73,6 +78,9 @@ color: #434455;
     color: #404bbf;
 }
 
+.adress-style {
+    font-style: normal;
+}
 
 /* ============== /HEADER STYLES ============== */
 
@@ -228,9 +236,7 @@ color: #434455;
 height: 312px;
 }
 
-.page-logo-footer {
 
-}
 
 .footer-text {
     font-family: "Roboto", sans-serif;
