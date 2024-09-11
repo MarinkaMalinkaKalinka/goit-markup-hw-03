@@ -5,7 +5,8 @@ a {
 }
 
 ul,
-ol {
+ol,
+li {
     list-style-type: none;
 }
 
@@ -13,9 +14,19 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #404BBF;
+}
+
+button:focus {
+background-color: #404BBF;
+}
+
+
+
 body {
-    font-family: "Roboto", "Raleway" Arial, sans-serif;
-    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background: #fff;
 
 }
@@ -24,22 +35,29 @@ body {
 
 /* ============== HEADER STYLES ============== */
 
-.page-logo-main,
-.page-logo-footer {
-
-font-family: "Raleway", sans-serif;
+.logo-web,
+.web-color
+{
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2e2f42;
 }
 
-.text-blue {
-    
-    color: #4d5ae5;
+
+.studio {
+    color: #2e2f42; 
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
+
 
 .menu-item {
 font-family: "Roboto", sans-serif;
@@ -54,6 +72,7 @@ color: #2e2f42;
 .menu-item:focus
  {
     color: #404bbf;
+    background-color: #404bbf;
 }
 
 .menu-link {
@@ -72,10 +91,21 @@ color: #434455;
 }
 
 
+
+.adress-style {
+font-style: normal;
+}
+
+
+
 /* ============== /HEADER STYLES ============== */
 
 
 /* ============== HERO STYLES ============== */
+
+
+
+
 .hero-image {
     background-color: #2e2f42;
     width: 1440px;
@@ -170,6 +200,10 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 }
+
+
+
+
 
 .section-third {
     width: 1128px;
