@@ -48,6 +48,8 @@ text-transform: uppercase;
     color: #4d5ae5;
 }
 
+
+
 .menu-item {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -61,7 +63,7 @@ color: #2e2f42;
 .menu-item:focus
  {
     color: #404bbf;
-    background-color: #404bbf;
+   
 }
 
 .menu-link {
@@ -89,8 +91,6 @@ color: #434455;
 /* ============== HERO STYLES ============== */
 .hero-image {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
 
 .hero-text {
@@ -100,8 +100,7 @@ color: #434455;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    line-height: 1.07;
-    color: #ffffff;
+       color: #ffffff;
 }
 
 .hero-button {
@@ -149,8 +148,6 @@ color: #434455;
 
 .section-second {
     background: #f4f4fd;
-    width: 1440px;
-height: 732px;
 }
 
 .our-team {
@@ -209,13 +206,12 @@ height: 1000px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
 .row-first, 
 .row-second {
-    width: 1128px;
-height: 420px;
 background-color: #FFFFFF;
 }
 
@@ -250,8 +246,7 @@ color: #434455;
 
 .footer-dark-bk {
     background: #2e2f42;
-    width: 1440px;
-height: 312px;
+
 }
 
 
@@ -263,7 +258,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-letter-spacing: 0.02em
 }
 
 
