@@ -105,10 +105,6 @@ color: #434455;
 
 .hero-button {
 background-color: #4d5ae5;
-border-radius: 4px;
-width: 169px;
-height: 56px;
-
 font-family: "Roboto", sans-serif; 
 font-weight: 500;
 font-size: 16px;
@@ -194,10 +190,7 @@ text-align: center;
 color: #434455;
 }
 
-.section-third {
-    width: 1128px;
-height: 1000px;
-}
+
 
 .section-third-title {
     font-family: "Roboto", sans-serif;
@@ -215,8 +208,8 @@ height: 1000px;
 background-color: #FFFFFF;
 }
 
-.row-first-title,
-.row-second-title {
+.row-title
+{
     font-family: "Roboto", sans-serif;  
     font-weight: 500;
 font-size: 20px;
