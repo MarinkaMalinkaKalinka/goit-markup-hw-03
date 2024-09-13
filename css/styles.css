@@ -198,10 +198,7 @@ color: #434455;
 background-color: #FFFFFF;
 }
 
-.img-row-second {
-    width: 360px;
-    height: 300px;
-}
+
 
 .row-title
 {
@@ -214,8 +211,8 @@ text-transform: capitalize;
 color: #2e2f42;
 }
 
-.row-first-text,
-.row-second-text {
+
+.row-text {
     
     font-weight: 400;
 font-size: 16px;
