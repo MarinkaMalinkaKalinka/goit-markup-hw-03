@@ -18,11 +18,6 @@ body {
     color: #434455;
     background: #fff;
 }
-/* ============== /COMMON STYLES ============== */
-
-
-
-
 
 /* ============== HEADER STYLES ============== */
 
@@ -71,9 +66,6 @@ color: #434455;
     color: #404bbf;
 }
 
-/* ============== /HEADER STYLES ============== */
-
-
 
 /* ============== HERO STYLES ============== */
 
@@ -105,6 +97,9 @@ text-align: center;
     background-color: #404bbf;
 }
 
+
+/* ============== Section 2 ============== */
+
 .section-title {
     line-height: 1.07;
     font-size: 36px;
@@ -134,19 +129,21 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+/* ============== Section 3 ============== */
+
 .section-second{
     background: #f4f4fd;
-    
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
 }
-
-
-
+   
+    .our-team {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;
+    }
+   
 .our-team-back {
     background-color: #FFFFFF;
     font-size: 36px;
@@ -166,6 +163,15 @@ color: #434455;
     color: #2e2f42;
 }
 
+.section-title {
+    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 
 .team-cards {
     
@@ -188,6 +194,7 @@ color: #434455;
 }
 
 
+/* ============== Section 4 ============== */
 
 .section-third-title {
    
@@ -204,7 +211,6 @@ color: #434455;
 .row-second {
 background-color: #FFFFFF;
 }
-
 
 
 .row-title
@@ -227,12 +233,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
-/* ============== /HERO STYLES ============== */
-
-
-
-
 
 
 /* ============== FOOTER STYLES ============== */
